@@ -1,0 +1,88 @@
+.commodity_title::after, .commodity_description::after {
+  content: '';
+  display: block;
+  width: 750rpx;
+  height: 20rpx;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  background-color: #eee;
+}
+.photo-container {
+  width: 100%;
+  position: relative;
+}
+.add-icon {
+  width: inherit;
+  height: inherit;
+  border: 1px solid rgb(204, 188, 188);
+}
+.photo {
+  width: 180rpx;
+  height: 180rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  display: inline-block;
+}
+
+/* .box {
+}
+.titleBox {
+  position: relative;
+  background: white;
+  margin-bottom: 10px;
+}
+.titleLabel {
+  font-size: medium;
+  padding-left: 10px;
+}
+.descriptionBox {
+  position: relative;
+  background: white;
+}
+.descriptionLabel {
+  padding-left: 10px;
+  font-size: medium;
+}
+.description {
+  width: 750rpx;
+  height: 450rpx;
+  font-size: medium;
+  position: relative;
+}
+.fontLen {
+  position: absolute;
+  right: 10px;
+  bottom: 5px;
+  font-size: small;
+  display: block;
+}
+.photo {
+  width: 100%;
+  background: white;
+  position: relative;
+}
+.takePhotoBox {
+  width: 180rpx;
+  height: 180rpx;
+  background-color: rgba(237, 237, 237, 0.5);
+  border-radius: 10px;
+  position: relative;
+  display: inline-block;
+  margin: 0 10px;
+}
+.takePhoto {
+  width: 150rpx;
+  height: 150rpx;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.itemPhotos {
+  width: 180rpx;
+  height: 180rpx;
+  margin: 0 10px;
+} */

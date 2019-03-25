@@ -1,0 +1,28 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/buy/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "dangosky",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#1AAD16",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/main",
+        "text": "index"
+      },
+      {
+        "pagePath": "pages/buy/main",
+        "text": "buy"
+      }
+    ]
+  }
+}
